@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:rust": "wasm-pack build rust-lib --target web --out-dir ../public/rust-lib"
   },
   "dependencies": {
     "react": "^18",
